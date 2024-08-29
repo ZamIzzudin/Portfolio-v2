@@ -1,0 +1,99 @@
+[
+  {
+    "name": "TEDx UIN Jakarta",
+    "type": "Ticketing System",
+    "thumbnail": "./logo/tedx.png",
+    "techstack": [
+      "React JS",
+      "Express JS",
+      "REST API",
+      "Mongo DB",
+      "MidTrans",
+      "Nodemailer"
+    ],
+    "github": "/",
+    "deployment": "https://tedxuinjakarta.com/",
+    "publicity": true,
+    "description": "This site was created to handle <strong>online ticket sales</strong> for the <strong>TEDx UIN Jakarta</strong> event. Ticket sales have been integrated directly with payment gateways to make the payment process easier.<br/><br/> Apart from that, a dashboard website (which is used by the internal team) was also created to manage ticket purchases and the content presented on the site.",
+    "ss": [
+      "./ss/tedx/1.png",
+      "./ss/tedx/2.png",
+      "./ss/tedx/3.png",
+      "./ss/tedx/4.png",
+      "./ss/tedx/7.png",
+      "./ss/tedx/5.png",
+      "./ss/tedx/6.png"
+    ]
+  },
+  {
+    "name": "Logos LPSE Scraper",
+    "type": "Site Crawler",
+    "thumbnail": "./logo/logos.png",
+    "techstack": [
+      "Next JS",
+      "Express JS",
+      "Mongo DB",
+      "Flask",
+      "Spider Scraper (Crawler)"
+    ],
+    "github": "/",
+    "deployment": "/",
+    "publicity": true,
+    "description": "This site was created to crawl data from<strong> 40+ LPSE sites (ministerial institutions, regional governments to BUMN)</strong> to later be displayed on this site to make it easier to find suitable procurement based on the required filters.<br/><br/>*Because there is no direct official access to obtain this data from their databases, crawling is carried out on each LPSE site.",
+    "ss": [
+      "./ss/lunar.png",
+      "./ss/lunar.png",
+      "./ss/lunar.png",
+      "./ss/lunar.png"
+    ]
+  },
+  {
+    "name": "GITC E-Letter",
+    "type": "Document Management System",
+    "thumbnail": "./logo/garuda.png",
+    "techstack": ["MySQL", "MySQL", "MySQL"],
+    "github": "/",
+    "deployment": "/",
+    "publicity": true,
+    "description": "This site was created to help facilitate the flow of creating and distributing letters at the <strong>Garuda Indonesia Training Center</strong>. There are two types of letters facilitated by this system, offering latter and confirmation letters.<br/><br/>Apart from facilitating the creation and distribution process, this site also facilitates to storing and reporting based on the data in the letters that have been created.",
+    "ss": [
+      "./ss/lunar.png",
+      "./ss/lunar.png",
+      "./ss/lunar.png",
+      "./ss/lunar.png"
+    ]
+  },
+  {
+    "name": "HIMSI Website",
+    "type": "Official Site Himpunan Mahasiswa Sistem Informasi",
+    "thumbnail": "./logo/himsi.png",
+    "techstack": ["React JS", "REST API", "CMS Dashboard", "Landing Page"],
+    "github": "/",
+    "deployment": "/https://web-himsi.netlify.app/",
+    "publicity": true,
+    "description": "This site was created as one of the official media from <strong>HIMSI (Information Systems Student Association) UIN Jakarta</strong> to share various information related to the lectures or programs they run.<br/><br/>Apart from that, a website dashboard (which is used by the internal team) was also created to help manage various information that will be shared on the site.",
+    "ss": [
+      "./ss/himsi/5.png",
+      "./ss/himsi/1.png",
+      "./ss/himsi/2.png",
+      "./ss/himsi/3.png",
+      "./ss/himsi/4.png"
+    ]
+  },
+  {
+    "name": "Muse Youtube API",
+    "type": "REST API Service",
+    "thumbnail": "./logo/muse.png",
+    "techstack": ["Express JS", "Mongo DB", "REST API", "Public API"],
+    "github": "/",
+    "deployment": "https://muse-id-api.netlify.app/",
+    "publicity": true,
+    "description": "This API was created to provide information about reference anime from the <strong>Muse Indonesia Youtube channel</strong>. This API is a <strong>public API</strong> and is <strong>not official</strong> so anyone can use the data for their personal project needs. <br/><br/>*This API will also not interfere with the traffic of viewers of the channel, because the videos are provided in iframe form from the Muse Indonesia Youtube channel.",
+    "ss": [
+      "./ss/muse/1.png",
+      "./ss/muse/2.png",
+      "./ss/muse/3.png",
+      "./ss/muse/4.png"
+    ]
+  }
+]

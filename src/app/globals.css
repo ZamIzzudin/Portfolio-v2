@@ -1,6 +1,14 @@
+/** @format */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Monument Extended";
+  src: url("../assets/font/MonumentExtended-Black.woff") format("woff");
+  font-display: swap;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,7 +24,12 @@
   }
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
+  overflow-x: hidden;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -30,4 +43,102 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.stroked {
+  -webkit-text-stroke: 1px white;
+}
+
+/* LOADING PAGE */
+.loading {
+  font-size: 2.5em;
+  margin-top: 15px;
+  position: relative;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+}
+
+.loading::before {
+  content: "Loading...";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  color: white;
+  overflow: hidden;
+  animation: loading 2s infinite alternate;
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* ROLLER TEXT BANNER */
+.inside-mask {
+  width: 100dvw;
+  height: 70dvh;
+  position: absolute;
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.outside-mask {
+  width: 100dvw;
+  height: 70dvh;
+  position: absolute;
+  display: flex;
+  z-index: -10;
+  align-items: center;
+  justify-content: center;
+}
+
+.roller-text {
+  top: 15%;
+  z-index: 1;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.roller-text2 {
+  bottom: 15%;
+  z-index: 1;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.roller-text span,
+.roller-text2 span {
+  /* CHANGER */
+  margin-left: 0.2em;
+  color: white;
+  font-size: 7em;
+  font-weight: 800;
+}
+
+.inside-mask .roller-text,
+.inside-mask .roller-text2 {
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: transparent;
+}
+
+.layer_img {
+  position: absolute;
+  z-index: 1;
+  max-height: 70vh;
+}
+
+strong {
+  color: rgb(70, 66, 255);
 }
