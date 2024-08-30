@@ -5,7 +5,8 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 
-import Persona from "@/asset/banner.gif";
+// import Persona from "@/asset/banner.gif";
+import Persona2 from "@/asset/moneyrain.gif";
 
 export default function Banner() {
   const $follower = useRef<HTMLDivElement>(null);
@@ -57,9 +58,9 @@ export default function Banner() {
         <div className="min-h-h-half aspect-square bg-salmon rounded-full animate-spin-slow bg-purple-gradient opacity-50"></div>
       </div>
       {/* Masking */}
-      <div className="inside-mask font-highlight">
+      <div className="inside-mask font-highlight md:text-[6em] text-[2.5em]">
         <div
-          className="roller-text"
+          className="roller-text top-[30%] md:top-[15%]"
           style={{ transform: `translateX(${-scrollY / 20}%)` }}
         >
           <span>AZZAM</span>
@@ -68,7 +69,7 @@ export default function Banner() {
           <span>IZZUDIN</span>
         </div>
         <div
-          className="roller-text2"
+          className="roller-text2 bottom-[30%] md:bottom-[15%]"
           style={{ transform: `translateX(${scrollY / 20}%)` }}
         >
           <span>WEB</span>
@@ -77,9 +78,9 @@ export default function Banner() {
           <span>DEVELOPER</span>
         </div>
       </div>
-      <div className="outside-mask font-highlight">
+      <div className="outside-mask font-highlight md:text-[6em] text-[2.5em]">
         <div
-          className="roller-text"
+          className="roller-text top-[30%] md:top-[15%]"
           style={{ transform: `translateX(${-scrollY / 20}%)` }}
         >
           <span>AZZAM</span>
@@ -88,7 +89,7 @@ export default function Banner() {
           <span>IZZUDIN</span>
         </div>
         <div
-          className="roller-text2"
+          className="roller-text2 bottom-[30%] md:bottom-[15%]"
           style={{ transform: `translateX(${scrollY / 20}%)` }}
         >
           <span>WEB</span>
@@ -98,11 +99,9 @@ export default function Banner() {
         </div>
       </div>
       <Image
-        className="layer-image"
-        src={Persona}
+        className="layer-image max-w-[90vw] w-[500px]"
+        src={Persona2}
         alt="banner pict"
-        width={500}
-        height={500}
       />
     </section>
   );

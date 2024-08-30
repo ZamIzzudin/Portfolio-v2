@@ -12,9 +12,9 @@ export default function Contact() {
       className="min-w-w-screen min-h-h-half flex flex-col items-center justify-start"
     >
       <SectionTitle title="CONTACT" type="righted">
-        <div className="flex justify-center">
-          <div className="flex flex-col items-start gap-5 w-3/6">
-            <p className="bg-dark">
+        <div className="flex justify-end xl:justify-center">
+          <div className="flex flex-col items-start gap-5 xl:w-3/6 md:w-2/3 max-w-[80vw]">
+            <p className="bg-dark text-justify">
               Have a project in mind? Would you like to share it? Feel free to
               reach out by writing email.
             </p>
