@@ -30,6 +30,7 @@ export default function RootLayout({
           name="google-site-verification"
           content={process.env.GA_TRACK_ID}
         />
+        <link rel="icon" href="/favicon.gif" />
       </head>
       <body className={montserrat.className}>
         <LoadingPage />
