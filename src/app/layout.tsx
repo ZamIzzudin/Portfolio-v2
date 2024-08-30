@@ -3,6 +3,7 @@
 import Navbar from "@/comp/Navbar";
 import LoadingPage from "@/comp/LoadingPage";
 import Footer from "@/comp/Footer";
+import Head from "next/head";
 
 import { Montserrat } from "next/font/google";
 
@@ -24,6 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content={process.env.GA_TRACK_ID}
+        />
+      </head>
       <body className={montserrat.className}>
         <LoadingPage />
         <Navbar />
