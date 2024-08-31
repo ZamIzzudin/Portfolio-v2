@@ -48,14 +48,23 @@
     "name": "GITC E-Letter",
     "type": "Document Management System",
     "thumbnail": "./logo/garuda.png",
-    "techstack": ["MySQL", "MySQL", "MySQL"],
-    "deployment": "/",
+    "techstack": [
+      "Vite JS",
+      "Express JS",
+      "Mongo DB",
+      "Nodemailer",
+      "Document Management System",
+      "E-Letter"
+    ],
+    "deployment": "https://vze-garuda-dms.vercel.app",
     "description": "This site was created to help facilitate the flow of creating and distributing letters at the <strong>Garuda Indonesia Training Center</strong>. There are two types of letters facilitated by this system, offering latter and confirmation letters.<br/><br/>Apart from facilitating the creation and distribution process, this site also facilitates to storing and reporting based on the data in the letters that have been created.",
     "ss": [
-      "./ss/lunar.png",
-      "./ss/lunar.png",
-      "./ss/lunar.png",
-      "./ss/lunar.png"
+      "./ss/gitc/1.png",
+      "./ss/gitc/2.png",
+      "./ss/gitc/3.png",
+      "./ss/gitc/4.png",
+      "./ss/gitc/5.png",
+      "./ss/gitc/6.png"
     ]
   },
   {
