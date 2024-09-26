@@ -1,7 +1,7 @@
 [
   {
     "name": "TEDx UIN Jakarta",
-    "type": "Ticketing System",
+    "type": "Event Ticket Sales",
     "thumbnail": "./logo/tedx.png",
     "techstack": [
       "React JS",

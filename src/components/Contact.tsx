@@ -34,7 +34,7 @@ export default function Contact() {
                 <BsDiscord />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/azzam-izzudin-084294219/"
+                href="https://www.linkedin.com/in/azzam-izzudin-hasan/"
                 target="_blank"
                 className="hover:text-purple duration-300"
               >
