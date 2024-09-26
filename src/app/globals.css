@@ -152,3 +152,7 @@ body {
 strong {
   color: rgb(70, 66, 255);
 }
+
+.game-container {
+  transform: scale(3);
+}

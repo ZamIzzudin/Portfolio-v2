@@ -16,9 +16,9 @@ export default function Navbar() {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: "Home", redirect: "#home" },
-    { id: 2, text: "Project", redirect: "#project" },
-    { id: 3, text: "Contact", redirect: "#contact" },
+    { id: 1, text: "Home", redirect: "/#home" },
+    { id: 2, text: "Project", redirect: "/#project" },
+    { id: 3, text: "Contact", redirect: "/#contact" },
   ];
   return (
     <nav className="bg-black fixed justify-end items-center max-w-[100vw] text-white md:justify-center z-30 left-0 right-0">

@@ -2,7 +2,6 @@
 
 import Navbar from "@/comp/Navbar";
 import LoadingPage from "@/comp/LoadingPage";
-import Footer from "@/comp/Footer";
 import Head from "next/head";
 
 import { Montserrat } from "next/font/google";
@@ -33,10 +32,9 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.gif" />
       </head>
       <body className={montserrat.className}>
-        <LoadingPage />
+        {/* <LoadingPage /> */}
         <Navbar />
         {children}
-        <Footer />
       </body>
     </html>
   );
