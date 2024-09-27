@@ -72,7 +72,7 @@
     "type": "Official Site Himpunan Mahasiswa Sistem Informasi",
     "thumbnail": "./logo/himsi.png",
     "techstack": ["React JS", "REST API", "CMS Dashboard", "Landing Page"],
-    "deployment": "/https://web-himsi.netlify.app/",
+    "deployment": "https://web-himsi.netlify.app/",
     "description": "This site was created as one of the official media from <strong>HIMSI (Information Systems Student Association) UIN Jakarta</strong> to share various information related to the lectures or programs they run.<br/><br/>Apart from that, a website dashboard (which is used by the internal team) was also created to help manage various information that will be shared on the site.",
     "ss": [
       "./ss/himsi/5.png",
